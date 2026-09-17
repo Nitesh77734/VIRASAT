@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIRASAT | Jaipur Heritage Conservation</title>
+    <link rel="icon" href="assets/images/virasat logo.PNG" >
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body class="bg-[#f7f1e6] text-[#4b201b] font-['DM_Sans'] ">
+
+    <header class="border-b border-[#cdbda8] bg-[#f7f1e6] ">
+        <div class="mx-auto px-5 py-4   max-w-7xl flex justify-between items-center">
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center gap-3">
+                <span
+                    class="flex h-9 w-9 items-center justify-center rounded-full border border-[#70251f] text-[#70251f]">
+                    V
+                </span>
+                <span>
+                    <span class=" font-['Playfair_Display'] text-xl font-semibold tracking-wide">
+                        VIRASAT
+                    </span>
+                    <span class="text-[9px] uppercase tracking-[0.25em] text-[#8d625b]">
+                        Jaipur Heritage
+                    </span>
+                </span>
+
+            </a>
+            <!-- Navigation -->
+
+            <nav class="hidden items-center gap-8 md:flex mr-40">
+                <a href="index.html" class="text-[15px] font-medium text-[#70251f]">Home</a>
+                <a href="work.html" class="text-[15px] font-medium text-[#70251f] transition hover:text-[#70251f]"> Our
+                    Work</a>
+                <a href="stories.html"
+                    class="text-[15px] font-medium text-[#70251f] transition hover:text-[#70251f]">Stories</a>
+                <a href="gallery.html"
+                    class="text-[15px] font-medium text-[#70251f] transition hover:text-[#70251f]">Gallery</a>
+                <a href="get-involved.html"
+                    class="text-[15px] font-medium text-[#70251f] transition hover:text-[#4b201b]">Get Involved</a>
+
+            </nav>
+            <!-- Decorative circle -->
+            <div class="flex h-9 w-9 items-center justify-center rounded-full border border-[#cdbda8] text-[#8d625b]">
+                <span class="text-sm">○</span>
+            </div>
+
+        </div>
+
+    </header>
+
+<main>
+
+  <!-- Get Involved Hero -->
+  <section class="w-[90%] mx-auto my-[40px] bg-[#efe4d2] border border-[#cdbda8]">
+
+    <div class="grid grid-cols-1 md:grid-cols-2">
+
+      <!-- Text -->
+      <div class="p-[30px] md:p-[50px] flex flex-col justify-center">
+
+        <p class="text-[#8d625b] text-[14px] tracking-[3px] mb-[15px]">
+          GET INVOLVED
+        </p>
+
+        <h1 class="font-['Playfair_Display'] text-[42px] md:text-[58px] leading-[1.1] text-[#70251f]">
+          Be a Part of Jaipur's Story
+        </h1>
+
+        <p class="mt-[20px] text-[#4b201b] text-[16px] leading-[1.8]">
+          Heritage survives when communities come together.
+          Whether you volunteer your time, support our work or
+          simply share your interest, every contribution matters.
+        </p>
+
+        <a
+          href="#volunteer-form"
+          class="inline-flex w-fit mt-[25px] bg-[#70251f] text-[#f7f1e6] px-[25px] py-[12px] border border-[#70251f] hover:bg-transparent hover:text-[#70251f] transition duration-300"
+        >
+          Join the Movement
+        </a>
+
+      </div>
+
+
+      <!-- Image -->
+      <div>
+
+        <img
+          src="assets/images/events.jpg"
+          alt="Community members participating in a Jaipur cultural event"
+          class="w-full h-[300px] md:h-[420px] object-cover"
+        >
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Volunteer Form -->
+<section id="volunteer-form" class="w-[90%] mx-auto my-[80px]">
+
+  <!-- Heading -->
+  <div class="text-center mb-[40px]">
+
+    <p class="text-[#8d625b] text-[14px] tracking-[3px] mb-[12px]">
+      JOIN VIRASAT
+    </p>
+
+    <h2 class="font-['Playfair_Display'] text-[36px] md:text-[46px] text-[#70251f]">
+      Share Your Interest
+    </h2>
+
+    <p class="mt-[15px] text-[#4b201b] text-[16px] leading-[1.7]">
+      Tell us a little about yourself and how you would like
+      to contribute to Jaipur's heritage.
+    </p>
+
+  </div>
+
+
+  <!-- Form -->
+  <form class="max-w-[800px] mx-auto bg-[#faf6ee] border border-[#cdbda8] p-[25px] md:p-[45px]">
+
+    <!-- Name -->
+    <div class="mb-[20px]">
+
+      <label
+        for="name"
+        class="block text-[#70251f] text-[15px] mb-[8px]"
+      >
+        Full Name
+      </label>
+
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your full name"
+        required
+        class="w-full border border-[#cdbda8] bg-[#f7f1e6] px-[15px] py-[12px] text-[#4b201b] outline-none focus:border-[#70251f]"
+      >
+
+    </div>
+
+
+    <!-- Email -->
+    <div class="mb-[20px]">
+
+      <label
+        for="email"
+        class="block text-[#70251f] text-[15px] mb-[8px]"
+      >
+        Email Address
+      </label>
+
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+        class="w-full border border-[#cdbda8] bg-[#f7f1e6] px-[15px] py-[12px] text-[#4b201b] outline-none focus:border-[#70251f]"
+      >
+
+    </div>
+
+
+    <!-- Phone -->
+    <div class="mb-[20px]">
+
+      <label
+        for="phone"
+        class="block text-[#70251f] text-[15px] mb-[8px]"
+      >
+        Phone Number
+      </label>
+
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="Enter your phone number"
+        class="w-full border border-[#cdbda8] bg-[#f7f1e6] px-[15px] py-[12px] text-[#4b201b] outline-none focus:border-[#70251f]"
+      >
+
+    </div>
+
+
+    <!-- Interest -->
+    <div class="mb-[20px]">
+
+      <label
+        for="interest"
+        class="block text-[#70251f] text-[15px] mb-[8px]"
+      >
+        How would you like to contribute?
+      </label>
+
+      <select
+        id="interest"
+        name="interest"
+        required
+        class="w-full border border-[#cdbda8] bg-[#f7f1e6] px-[15px] py-[12px] text-[#4b201b] outline-none focus:border-[#70251f]"
+      >
+
+        <option value="">Select an option</option>
+        <option value="volunteer">Volunteer</option>
+        <option value="donate">Support Through Donation</option>
+        <option value="events">Help With Community Events</option>
+        <option value="awareness">Spread Heritage Awareness</option>
+
+      </select>
+
+    </div>
+
+
+    <!-- Message -->
+    <div class="mb-[25px]">
+
+      <label
+        for="message"
+        class="block text-[#70251f] text-[15px] mb-[8px]"
+      >
+        Message
+      </label>
+
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        placeholder="Tell us how you would like to help..."
+        required
+        class="w-full border border-[#cdbda8] bg-[#f7f1e6] px-[15px] py-[12px] text-[#4b201b] outline-none focus:border-[#70251f]"
+      ></textarea>
+
+    </div>
+
+
+    <!-- Submit -->
+    <button
+      type="submit"
+      class="w-full bg-[#70251f] text-[#f7f1e6] px-[25px] py-[13px] border border-[#70251f] hover:bg-transparent hover:text-[#70251f] transition duration-300"
+    >
+      Submit Your Interest
+    </button>
+
+  </form>
+
+</section>
+
+<!-- Ways You Can Help -->
+<section class="w-[90%] mx-auto my-[80px]">
+
+  <!-- Heading -->
+  <div class="text-center mb-[40px]">
+
+    <p class="text-[#8d625b] text-[14px] tracking-[3px] mb-[12px]">
+      YOUR CONTRIBUTION
+    </p>
+
+    <h2 class="font-['Playfair_Display'] text-[36px] md:text-[46px] text-[#70251f]">
+      There Are Many Ways to Help
+    </h2>
+
+  </div>
+
+
+  <!-- Cards -->
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px]">
+
+    <!-- Card 1 -->
+    <div class="bg-[#efe4d2] border border-[#cdbda8] p-[25px] hover:shadow-[0_8px_20px_rgba(75,32,27,0.12)] transition duration-300">
+
+      <h3 class="font-['Playfair_Display'] text-[27px] text-[#70251f]">
+        Volunteer Your Time
+      </h3>
+
+      <p class="mt-[12px] text-[#4b201b] text-[15px] leading-[1.7]">
+        Help us document heritage, support community activities
+        and take part in local cultural projects.
+      </p>
+
+      <a
+        href="#volunteer-form"
+        class=" mt-[20px] text-[#70251f] border-b border-[#70251f] hover:text-[#8d625b] transition duration-300"
+      >
+        Become a Volunteer
+      </a>
+
+    </div>
+
+
+    <!-- Card 2 -->
+    <div class="bg-[#efe4d2] border border-[#cdbda8] p-[25px] hover:shadow-[0_8px_20px_rgba(75,32,27,0.12)] transition duration-300">
+
+      <h3 class="font-['Playfair_Display'] text-[27px] text-[#70251f]">
+        Support Our Work
+      </h3>
+
+      <p class="mt-[12px] text-[#4b201b] text-[15px] leading-[1.7]">
+        Your support can help heritage education, artisan
+        initiatives and community-led conservation work.
+      </p>
+
+      <a
+        href="#volunteer-form"
+        class=" mt-[20px] text-[#70251f] border-b border-[#70251f] hover:text-[#8d625b] transition duration-300"
+      >
+        Support Virasat
+      </a>
+
+    </div>
+
+
+    <!-- Card 3 -->
+    <div class="bg-[#efe4d2] border border-[#cdbda8] p-[25px] hover:shadow-[0_8px_20px_rgba(75,32,27,0.12)] transition duration-300">
+
+      <h3 class="font-['Playfair_Display'] text-[27px] text-[#70251f]">
+        Spread Awareness
+      </h3>
+
+      <p class="mt-[12px] text-[#4b201b] text-[15px] leading-[1.7]">
+        Share the stories of Jaipur's heritage and encourage
+        others to value and protect our cultural identity.
+      </p>
+
+      <a
+        href="stories.html"
+        class=" mt-[20px] text-[#70251f] border-b border-[#70251f] hover:text-[#8d625b] transition duration-300"
+      >
+        Explore Our Stories
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Final CTA -->
+<section class="w-[90%] mx-auto my-[80px]">
+
+  <div class="bg-[#70251f] px-[25px] py-[50px] md:px-[60px] text-center">
+
+    <p class="text-[#d8b9a8] text-[14px] tracking-[3px] mb-[15px]">
+      TOGETHER WE PRESERVE
+    </p>
+
+    <h2 class="font-['Playfair_Display'] text-[36px] md:text-[48px] text-[#f7f1e6] leading-[1.2]">
+      Keep Jaipur's Heritage Alive
+    </h2>
+
+    <p class="text-[#efe4d2] text-[15px] md:text-[16px] leading-[1.7] max-w-[650px] mx-auto mt-[18px]">
+      Every helping hand can make a difference. Join our community
+      and help protect the places, traditions and stories that make
+      Jaipur special.
+    </p>
+
+    <div class="flex flex-col md:flex-row justify-center gap-[15px] mt-[30px]">
+
+      <a
+        href="#volunteer-form"
+        class="bg-[#f7f1e6] text-[#70251f] px-[25px] py-[12px] border border-[#f7f1e6] hover:bg-transparent hover:text-[#f7f1e6] transition duration-300"
+      >
+        Join Virasat
+      </a>
+
+      <a
+        href="stories.html"
+        class="border border-[#d8b9a8] text-[#f7f1e6] px-[25px] py-[12px] hover:bg-[#f7f1e6] hover:text-[#70251f] transition duration-300"
+      >
+        Read Our Stories
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER  -->
+
+    <footer class="bg-[#4b201b] text-[#f7f1e6] w-[100%] px-[20px] md:px-[40px]  " >
+        <div class="w-[100%] max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-[40px] ">
+            <div>
+                <h2 class="font-[Playfair_Display] text-[28px] font-[600] text-[#f7f1e6] mt-[20px] ">VIRASAT</h2>
+                <h4 class="text-[12px] uppercase leading-wide text-[#d8b9a8]  mb-[20px]">Jaipur Heritage Initiative</h4>
+                <p class="text-[14px] leading-[24px] max-w-[300px] text-[#e8d8cc] mt-[16px] ">Preserving Jaipur's heritage, supporting local artisans, and keeping cultural stories alive.</p>
+            </div>
+
+            <div>
+                <h2 class="font-[Playfair_Display] text-[20px]  mb-[20px] mt-[20px]">Explore</h2>
+                <a href="index.html" class="text-[14px] text-[#e8d8cc] transition hover:text-[#f7f1e6] mb-[10px]">Home</a><br/>
+                <a href="work.html"class="text-[14px] text-[#e8d8cc] transition hover:text-[#f7f1e6] mb-[10px]">Our Work</a><br/>
+                <a href="stories.html"class="text-[14px] text-[#e8d8cc] transition hover:text-[#f7f1e6] mb-[10px]">Stories</a><br>
+                <a href="gallery.html"class="text-[14px] text-[#e8d8cc] transition hover:text-[#f7f1e6] mb-[10px]">Gallery</a><br>
+                <a href="get-involved.html"class="text-[14px] text-[#e8d8cc] transition hover:text-[#f7f1e6] mb-[10px]">Get Involved</a><br/>
+            </div>
+
+            <div>
+                 <h2 class="font-[Playfair_Display] text-[20px]  mb-[20px] mt-[20px]">Get Involved</h2>
+                <p class="text-[14px] leading-[24px] text-[#e8d8cc] max-w-[300px] mb-[30px] ">Volunteer your time, support local artisans, or help us share Jaipur's heritage.</p>
+                <a href="get-involved.html" class="bg-[#f7f1e6] text-[#70251f] px-[20px] py-[10px] rounded-full transition hover:bg-[#efe4d2] ">Join the Movement →</a>
+            </div>
+
+        </div>
+
+        
+            <hr class=" border-1px mt-[48px] pt-[20px] ">
+            <p class="text-[12px] text-[#d8b9a8] pt-[10px] pb-[20px]">© 2026 VIRASAT — Jaipur Heritage Initiative</p>
+        
+
+    </footer>
+
+
+
+</body>
+</html>
